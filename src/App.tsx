@@ -261,7 +261,7 @@ export default function App() {
           {[["附加 ¥10", 10], ["附加 ¥1", 1]].map(([label, amt]) => (
             <button
               key={label}
-              onClick={() => setExtra(e => +(e + amt).toFixed(1))}
+              onClick={() => setExtra(e => +(e + (amt as number)).toFixed(1))}
               style={{ flex: 1, padding: "10px 0", borderRadius: 8, border: "0.5px solid #333", background: "#1a1a1a", color: "#ccc", fontSize: 14, cursor: "pointer" }}
             >
               {label}
