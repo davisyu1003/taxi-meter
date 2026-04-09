@@ -1,0 +1,19 @@
+{
+  "name": "出租车计价模拟器",
+  "short_name": "计价器",
+  "description": "支持多城市计价规则、GPS实时里程、行程记录的出租车计价模拟器",
+  "start_url": "/taxi-meter/",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#0d0d0d",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities", "navigation"]
+}
