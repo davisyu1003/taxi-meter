@@ -246,7 +246,7 @@ export default function App() {
         </div>
         <div style={{ textAlign: "center" }}>
           <div style={{ color: "#555", fontSize: 11 }}>
-            {status === "idle" ? "待机" : status === "running" ? "计费中 ●" : "已暂停"}
+            {status === "idle" ? "待机" : status === "running" ? <span>计费中 <span style={{ color: "#4ade80", fontSize: 18 }}>●</span></span> : "已暂停"}
           </div>
         </div>
         <div style={{ textAlign: "center" }}>
