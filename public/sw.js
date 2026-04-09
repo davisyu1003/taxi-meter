@@ -1,4 +1,4 @@
-const CACHE_NAME = 'taxi-meter-v1';
+const CACHE_NAME = 'taxi-meter-v2';
 const ASSETS = [
   '/',
   '/index.html',
